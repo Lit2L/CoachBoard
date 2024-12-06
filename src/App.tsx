@@ -9,7 +9,7 @@ function App() {
 	return (
 		<>
 			<ThemeProvider defaultTheme='dark' storageKey='vite-ui-theme'>
-				<div className='min-h-screen flex flex-col'>
+				<div className='min-h-screen flex flex-col max-w-full'>
 					<header className='flex justify-between w-full flex-row p-4'>
 						<Button variant='link' asChild className='text-primary h-8 w-8 p-0'>
 							<a href='https://github.com/Georgegriff/react-dnd-kit-tailwind-shadcn-ui'>
@@ -21,7 +21,7 @@ function App() {
 						</Button>
 						<ThemeToggle />
 					</header>
-					<main className='mx-4 flex flex-col gap-6'>
+					<main className='mx-4 flex flex-col gap-6 min-h-screen'>
 						<h1 className='scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl'>
 							Coach's Training Board
 						</h1>
